@@ -18,8 +18,8 @@ class About extends StatelessWidget {
               height: 300,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: NetworkImage(
-                      'https://theubj.com/wp-content/uploads/2022/04/The-Boys-Season-3-Prime.jpg'),
+                  image: AssetImage(
+                      'assets/The-Boys-Season-3-Prime.jpg'),
                   fit: BoxFit.cover,
                 ),
               ),

@@ -12,15 +12,15 @@ class Moments extends StatefulWidget {
 class _MomentsState extends State<Moments> {
   final videos = [
     VideoMoments(
-        'https://www.themarysue.com/wp-content/uploads/2022/07/solider-boy-and-homelander-the-boys.jpg?resize=1200%2C676',
+        'assets/solider-boy-and-homelander-the-boys.jpg',
         'Rsjo7NQW0-E',
         'Homelander vs. The Butcher and Soldier Boy'),
     VideoMoments(
-        'https://s.yimg.com/ny/api/res/1.2/4LdjCwqh2vY7gqhbXKiufQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://media.zenfs.com/en/the_hollywood_reporter_217/cf8eda18b2803ea72c5bf1d75a5ed3fa',
+        'assets/Season3Final.jpg',
         'gm6qQdsxeGQ',
         'The Boys Season 3 Final Scene'),
     VideoMoments(
-        'https://fictionhorizon.com/wp-content/uploads/2022/07/FXG3g0pXgAE-rBJ.jpg',
+        'assets/theBoys1.jpg',
         '5YoyZ_yPPCI',
         'Homelander vs Soldierboy | The Boys Season 3 Final'),
   ];
@@ -40,7 +40,7 @@ class _MomentsState extends State<Moments> {
                     itemCount: videos.length,
                     itemBuilder: (context, index) {
                       return ListTile(
-                        leading: Image.network(videos[index].image),
+                        leading: Image.asset(videos[index].image),
                         title: Text(videos[index].title),
                         textColor: Colors.grey[800],
                         horizontalTitleGap: 30,

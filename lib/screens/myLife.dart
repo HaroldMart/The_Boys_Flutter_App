@@ -18,8 +18,8 @@ class MyLife extends StatelessWidget {
               height: 300,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: NetworkImage(
-                      'https://fictionhorizon.com/wp-content/uploads/2022/07/FXG3g0pXgAE-rBJ.jpg'),
+                  image: AssetImage(
+                      'assets/theBoys1.jpg'),
                   fit: BoxFit.cover,
                 ),
               ),

@@ -29,8 +29,8 @@ class _PrincipalState extends State<Principal> {
               height: 300,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: NetworkImage(
-                      'https://avatars.githubusercontent.com/u/93040571?v=4'),
+                  image: AssetImage(
+                      'assets/Perfil3.jpg'),
                   fit: BoxFit.cover,
                 ),
               ),
